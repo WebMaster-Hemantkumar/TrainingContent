@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML5 Forms</h2>
+
+<form >
+  First name:<br>
+  <input type="text" name="firstname"  placeholder="firstname" required="required" pattern="[A-Za-z]{2}">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname"  required="required" autofocus>
+  <br><br>
+  Eamil:<br>
+  <input type="email" name="Eamil" required="required" placeholder="Eamil">
+  <br><br>
+  Month:<br>
+  <input type="month" name="Month" value="Month" required="required" placeholder="Eamil">
+  <br><br>
+  Resume:<br>
+  <input type="file" name="Resume"  required="required" multiple>
+  <br><br>
+  Gender:<br>
+  <input type="radio" name="Gender" value="Male"/>Male
+  <input type="radio" name="Gender" value="Female"/>Female
+  <br><br>
+  MObile:<br>
+  <input type="number" name="MObile" value="Mickey" placeholder="firstname" required="required" max="10" min="10" pattern="[0-9]{10}">
+  <br>
+  Range:<br>
+  <input type="range" name="Range" value="Range" placeholder="Range" required="required" step="2">
+  <br>
+  Age:<br>
+  <input type="number" name="Age"  placeholder="Age" required="required">
+  <br>
+  Address:<br>
+  <textarea rows="10" cols="10" name="address" placeholder="address"></textarea>
+ <br>
+  <input type="number" name="MObile" value="Mickey" placeholder="firstname" required="required" max="10" min="10" pattern="[0-9]{10}">
+  <br>
+  FavColor:<br>
+  <input type="color" name="FavColor"  placeholder="FavColor" required="required">
+  Week:<br>
+  <input type="week" name="week"  placeholder="week" required="required">
+  Search:<br>
+  <input type="search" name="search"  placeholder="search" required="required">
+  Telephone:<br>
+  <input type="tel" name="FavColor"  placeholder="FavColor" required="required">
+
+  TIME:<br>
+  <input type="time" name="TIME"  placeholder="FavColor" required="required">
+  DOB:<br>
+  <input type="date" name="DOB"  placeholder="DOB" required="required"">
+  DOJ:<br>
+  <input type="datetime" name="DOJ"  placeholder="DOJ" required="required"">
+  DOJ1:<br>
+  <input type="datetime-local" name="DOj1"  placeholder="DOJ" required="required"">
+  
+  <br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
